@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+i#!/usr/bin/env python3
 
 import psutil
 import shutil
@@ -21,6 +21,7 @@ else:
 
 
 def main():
-    pass
+    print(cpu_usage())
+    print(check_disk_usage('/'))
 
 main()
